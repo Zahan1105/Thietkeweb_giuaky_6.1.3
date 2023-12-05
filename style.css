@@ -1,0 +1,94 @@
+body {
+    width: 100%;
+    /* height: 100vh; */
+    box-sizing: border-box;
+
+}
+
+.container {
+    width: 1000px;
+    max-width: 100%;
+    margin-top: 30px;
+    color: white;
+    position: relative;
+    margin: auto;
+}
+
+.aboutme {
+    width: 40%;
+    width: 40%;
+    background-color: rgb(136, 136, 133);
+    box-sizing: border-box;
+    float: left;
+}
+
+.avatar .img {
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar .img img {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.container .me {
+    margin: 0 20px 0 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container .skills {
+    margin: 0 20px 0 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container .hobby {
+    margin: 0 20px 0 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+.profile {
+    width: 60%;
+    background-color: white;
+    float: right;
+    position: relative;
+    color: black;
+    box-shadow: rgb(14, 13, 13) 0px 0px 3px;
+}
+
+.profile .job {
+    padding: 5px;
+}
+
+.profile .job h1 {
+    font-size: 36px;
+}
+
+.profile .job h2 {
+    font-size: 23px;
+}
+
+.profile .education {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.profile .experience {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.reference {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+}
